@@ -6,7 +6,7 @@ export class AppService {
   configuration;
   constructor() {
     this.configuration = new Configuration({
-      apiKey: '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',
+      apiKey: process.env.API_KEY,
     });
   }
 
